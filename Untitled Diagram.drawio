@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="271" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,7 +39,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YzANwn9D-5YVR0sS74IW-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="280" width="20" height="40" as="geometry" />
+          <mxGeometry x="430" y="280" width="20" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YzANwn9D-5YVR0sS74IW-19" value="Request system count" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry x="0.0049" width="80" relative="1" as="geometry">
@@ -62,24 +62,25 @@
         </mxCell>
         <mxCell id="YzANwn9D-5YVR0sS74IW-27" value="Update system count" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1.11;exitY=0.584;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
           <mxGeometry x="0.0049" width="80" relative="1" as="geometry">
-            <mxPoint x="290" y="450" as="sourcePoint" />
-            <mxPoint x="427.79999999999995" y="450.72" as="targetPoint" />
+            <mxPoint x="292.2" y="420" as="sourcePoint" />
+            <mxPoint x="429.99999999999994" y="420.72" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YzANwn9D-5YVR0sS74IW-28" value="Send Count" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0.972;entryY=0.227;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+        <mxCell id="YzANwn9D-5YVR0sS74IW-28" value="Send count" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0.972;entryY=0.227;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430.55999999999995" y="401.40999999999997" as="sourcePoint" />
-            <mxPoint x="290" y="399.9999999999999" as="targetPoint" />
+            <mxPoint x="429.99999999999994" y="399.99999999999994" as="sourcePoint" />
+            <mxPoint x="289.44" y="398.58999999999986" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YzANwn9D-5YVR0sS74IW-29" value="Validate Credentials" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" parent="1" edge="1">
+        <mxCell id="YzANwn9D-5YVR0sS74IW-29" value="Validate credentials" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="280" as="sourcePoint" />
-            <mxPoint x="290" y="280" as="targetPoint" />
+            <mxPoint x="430" y="299.5" as="sourcePoint" />
+            <mxPoint x="290" y="299.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YzANwn9D-5YVR0sS74IW-30" value="Send Credentials" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
+        <mxCell id="YzANwn9D-5YVR0sS74IW-30" value="Send credentials" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="290" y="320" as="sourcePoint" />
             <mxPoint x="430" y="320" as="targetPoint" />
@@ -87,6 +88,18 @@
         </mxCell>
         <mxCell id="p8HbQgrlrw5q0inSxDmh-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="420" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p8HbQgrlrw5q0inSxDmh-3" value="Log in" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="280" as="sourcePoint" />
+            <mxPoint x="430" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p8HbQgrlrw5q0inSxDmh-5" value="Send token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="340" as="sourcePoint" />
+            <mxPoint x="290" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
